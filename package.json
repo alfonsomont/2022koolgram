@@ -5,6 +5,9 @@
   },
   "name": "2022-amazona",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.15.0"
+  },
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
